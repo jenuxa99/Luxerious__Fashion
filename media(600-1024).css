@@ -1,0 +1,124 @@
+@media (min-width: 600px) and (max-width: 1024px) {
+
+    /* C-O-M-M-O-N */
+
+    .center {
+        padding: 0 calc(50% - 384px);
+    }
+
+    /* H-E-A-D-E-R */
+
+    .header-container {
+        padding: 0 calc(50% - 354px);
+    }
+
+    .links-right {
+        gap: 0px;
+    }
+
+    .burger-menu {
+        padding-right: 25px;
+    }
+
+    .person {
+        padding-right: 42px;
+    }
+
+    /* C-O-V-E-R */
+
+    .cover-container {
+        margin-left: 39px;
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: start;
+        margin-bottom: 39px;
+    }
+
+    .cover-title {
+        font-size: 44px;
+        line-height: 53px;
+    }
+
+    .cover-text {
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    /* C-A-T-E-G-O-R-I-E-S */
+
+    .categories {
+        -ms-grid-rows: 168px 20px 116px;
+        -ms-grid-columns: 232px 20px 232px 20px 232px;
+        grid-template: 168px 116px / repeat(3, 232px);
+        gap: 20px;
+        padding: 65px 0 110px;
+    }
+
+    .categories img {
+        height: 100%;
+    }
+
+    /* R-E-C-O-M-M-E-N-D-A-T-I-O-N-S */
+
+    .rec-grid {
+        -ms-grid-rows: 581px 16px 581px;
+        -ms-grid-columns: 360px 16px 360px;
+        grid-template: repeat(2, 581px) / repeat(2, 360px);
+        gap: 16px;
+    }
+
+    .rec-cell {
+        height: 581px;
+    }
+
+    .more {
+        margin: 33px 0 71px;
+    }
+
+    /* F-E-A-T-U-R-E */
+
+    .feature {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        height: 610px;
+        gap: 48.5px;
+    }
+
+    /* M-A-I-L-I-N-G */
+
+    .mailing {
+        min-height: 693px;
+    }
+
+    .mailing-fill {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .subscribe-info {
+        padding-top: 64px;
+    }
+
+    .subscribe-input {
+        padding-bottom: 140px;
+    }
+
+    .subscribe-title {
+        line-height: 39px;
+    }
+
+    .subscribe-text {
+        margin-bottom: 27px;
+    }
+
+    /* F-O-O-T-E-R */
+
+    .footer {
+        padding: 0 calc(50% - 354px);
+    }
+
+}

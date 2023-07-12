@@ -1,0 +1,207 @@
+@media (min-width: 320px) and (max-width: 767px) {
+
+    /* C-O-M-M-O-N */
+
+    * {
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    .center {
+        padding: 0 calc(50% - 172px);
+    }
+
+    /* H-E-A-D-E-R */
+
+    .header-container {
+        padding: 0 calc(50% - 171.5px);
+        height: 74px;
+    }
+
+    .links-right {
+        gap: 0px;
+    }
+
+    #search:checked~.search-ipt {
+        width: 150px;
+        padding: 0 10px;
+        border: 1px solid #F16D7F;
+    }
+
+    .burger-menu {
+        padding-right: 0;
+    }
+
+    .basket-counter,
+    .person,
+    .basket,
+    .cover-man {
+        display: none;
+    }
+
+    /* C-O-V-E-R */
+
+    .cover {
+        height: 363px;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+
+    .cover-container {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: start;
+        margin: 0;
+        padding: 0 0 0 15px;
+        height: 61px;
+    }
+
+    .cover-title {
+        font-size: 38px;
+        line-height: 46px;
+    }
+
+    .cover-text {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    /* C-A-T-E-G-O-R-I-E-S */
+
+    .categories {
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-rows: 247px 32px 247px 32px 247px 32px 111px;
+        -ms-grid-columns: auto;
+        grid-template: repeat(3, 247px) 111px / auto;
+        margin: 65px 0;
+        gap: 32px;
+    }
+
+    .categ-block {
+        overflow: hidden;
+    }
+
+    .accesories {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-grid-row: 4;
+        -ms-grid-row-span: 1;
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 1;
+        grid-area: 4 / 1 / 5 / 2;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    .categ-block img {
+        height: 100%;
+    }
+
+    /* R-E-C-O-M-M-E-N-D-A-T-I-O-N-S */
+
+    .rec-text {
+        margin-bottom: 65px;
+    }
+
+    .rec-grid {
+        -ms-grid-rows: 579px 16px 579px 16px 579px 16px 579px;
+        -ms-grid-columns: auto;
+        grid-template: repeat(4, 579px) / auto;
+        gap: 16px;
+        padding: 0 calc(50% - 179.5px);
+    }
+
+    .rec-cell {
+        height: 581px;
+    }
+
+    .more {
+        margin: 41px 0 96.5px;
+    }
+
+    /* F-E-A-T-U-R-E */
+
+    .feature {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        height: 610px;
+        gap: 47px;
+    }
+
+    /* M-A-I-L-I-N-G */
+
+    .mailing {
+        min-height: 550px;
+    }
+
+    .mailing-fill {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .subscribe-info {
+        padding-top: 64px;
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .quote {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .subscribe-input {
+        padding-bottom: 110px;
+    }
+
+    .subscribe-title {
+        line-height: 37px;
+    }
+
+    .subscribe-text {
+        margin-bottom: 22px;
+    }
+
+    .input-email {
+        width: 245px;
+    }
+
+    .input-btn {
+        width: 95px;
+    }
+
+    /* F-O-O-T-E-R */
+
+    .footer {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        height: 143px;
+        padding: 43px 0 9px;
+    }
+}
